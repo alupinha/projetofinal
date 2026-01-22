@@ -1,11 +1,11 @@
+
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-welcome',
-  imports: [],
+  standalone: true,
   templateUrl: './welcome.html',
-  styleUrl: './welcome.css',
+  styleUrls: ['./welcome.css']
 })
-export class Welcome {
+export class Welcome {}  // ✅ Certifica-te que se chama "Welcome"
 
-}
