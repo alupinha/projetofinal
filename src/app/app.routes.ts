@@ -10,14 +10,14 @@ export const routes: Routes = [
   {
     path: 'destinos', // Página de serviços
     loadComponent: () =>
-      import('./pages/destinos/destinos').then(m => m.Destinos),
+      import('./pages/destinos/destinos').then(m => m.destinos),
   },
   {
     path: 'login', // Página da galeria
     loadComponent: () =>
       import('./pages/login/login').then(m => m.Login),
   },
-  
+
   {
     path: '**', // Qualquer rota inválida redireciona para a Home
     redirectTo: '',
