@@ -1,0 +1,64 @@
+/* Seção de Ofertas */
+.ofertas {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #4facfe, #004e92);
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Título da seção */
+.ofertas h3 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+/* Container dos cards */
+.ofertas .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* espaçamento entre cards */
+}
+
+/* Card individual */
+.ofertas .card {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Imagem do card */
+.ofertas .card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Conteúdo do card */
+.ofertas .card h4 {
+  font-size: 1.4rem;
+  margin: 15px 0 10px 0;
+}
+
+.ofertas .card p {
+  font-size: 1rem;
+  padding: 0 15px 20px 15px;
+  color: #f1f1f1;
+}
+
+/* Hover */
+.ofertas .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .ofertas .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

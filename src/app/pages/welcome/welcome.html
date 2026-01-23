@@ -1,34 +1,39 @@
-<!-- welcome.component.html -->
 <div class="welcome-page">
 
-  <!-- Banner de boas-vindas -->
+  <!-- Banner principal -->
   <section class="banner">
-    <h2>Bem-vindo ao <span>ViagensBaratas.pt</span>!</h2>
-    <p>Descubra ofertas incríveis de viagens pelo mundo sem gastar muito.</p>
-    <a routerLink="/destinos" class="btn">Explorar Destinos</a>
+    <h1 class="logo">ViagensBaratas.pt</h1>
+    <p class="slogan">
+      Viaje mais, pagando menos. As melhores ofertas estão aqui!
+    </p>
+    <a routerLink="/destinos" class="btn-primary">
+      Ver Ofertas
+    </a>
   </section>
 
-  <!-- Destaques de destinos -->
-  <section class="destaques">
-    <h3>Destinos Populares</h3>
+  <!-- Seção de Ofertas -->
+  <section class="ofertas">
+    <h3>Ofertas Imperdíveis</h3>
+
     <div class="cards">
       <div class="card">
         <img src="assets/images/paris.jpg" alt="Paris">
         <h4>Paris</h4>
-        <p>Voe para a cidade da luz por preços incríveis!</p>
+        <p>Voos + hotel a partir de 199€</p>
       </div>
+
       <div class="card">
         <img src="assets/images/londres.jpg" alt="Londres">
         <h4>Londres</h4>
-        <p>Explore a capital britânica com ofertas imperdíveis.</p>
+        <p>Fim de semana desde 149€</p>
       </div>
+
       <div class="card">
         <img src="assets/images/rio.jpg" alt="Rio de Janeiro">
         <h4>Rio de Janeiro</h4>
-        <p>Sol, praia e carnaval a preços que cabem no seu bolso!</p>
+        <p>Sol e praia desde 499€</p>
       </div>
     </div>
   </section>
 
 </div>
-
